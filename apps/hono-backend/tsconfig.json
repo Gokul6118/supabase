@@ -10,7 +10,12 @@
     "types": ["node"],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-    "outDir": "dist"
+    "outDir": "dist",
+
+    "baseUrl": ".",
+    "paths": {
+      "@repo/db": ["../packages/db/src"]
+    }
   },
   "include": ["src", "api"],
   "exclude": ["node_modules"]
