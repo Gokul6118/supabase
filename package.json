@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@types/pg": "^8.16.0",
+    "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "turbo": "^2.8.1"
   },
