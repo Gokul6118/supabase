@@ -1,0 +1,21 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0",
+    "tsx": "^4.21.0",
+    "turbo": "^2.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "pg": "^8.18.0"
+  }
+}
