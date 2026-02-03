@@ -9,6 +9,9 @@
       "default": "./src/index.ts"
     }
   },
+   "scripts": {
+    "build": "tsup src/index.ts --format esm --dts"
+  },
   "dependencies": {
     "drizzle-orm": "^0.45.1"
   }

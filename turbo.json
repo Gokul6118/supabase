@@ -3,7 +3,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [],
+      "outputs": ["dist/**"],
       "env": ["DATABASE_URL"]
     },
     "dev": {
