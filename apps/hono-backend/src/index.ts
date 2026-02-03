@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { logger } from 'hono/logger'
-import { handle } from 'hono/vercel'
+
 import { db, todos } from '@repo/db'
 import { eq } from 'drizzle-orm'
 const app = new Hono()
@@ -107,4 +107,4 @@ app.delete('/:id', async (c) => {
 })
 
 
-export default handle(app);
+export default app;
